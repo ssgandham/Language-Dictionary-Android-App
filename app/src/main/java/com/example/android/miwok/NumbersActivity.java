@@ -17,6 +17,11 @@ package com.example.android.miwok;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import java.util.ArrayList;
 
 public class NumbersActivity extends AppCompatActivity {
 
@@ -24,5 +29,23 @@ public class NumbersActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_numbers);
+
+        String[] numb = new String[10];
+        ArrayList<String> numb_list = new ArrayList<String>();
+        numb_list.add("one");
+        numb_list.add("two");
+        numb_list.add("three");
+        numb_list.add("four");
+        numb_list.add("five");
+        numb_list.add("six");
+        numb_list.add("seven");
+        numb_list.add("eight");
+        numb_list.add("nine");
+        numb_list.add("ten");
+
+        LinearLayout numbers_view = (LinearLayout) findViewById(R.id.NumbersView);
+        TextView display_view = new TextView(this);
+        display_view.setText(numb_list.get(0));
+        numbers_view.addView(display_view);
     }
 }
