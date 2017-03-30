@@ -17,12 +17,34 @@ package com.example.android.miwok;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 public class PhrasesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_phrases);
+        setContentView(R.layout.activity_numbers);
+
+        String[] numb = new String[10];
+        ArrayList<Word> numb_list = new ArrayList<Word>();
+        numb_list.add(new Word("Where are you going?","minto wuksus"));
+        numb_list.add(new Word("What is your name?","tinnә oyaase'nә"));
+        numb_list.add(new Word("My name is...","oyaaset..."));
+        numb_list.add(new Word("How are you feeling?","michәksәs?"));
+        numb_list.add(new Word("I’m feeling good.","kuchi achit"));
+        numb_list.add(new Word("Are you coming?","әәnәs'aa?"));
+        numb_list.add(new Word("Yes, I’m coming.","hәә’ әәnәm"));
+        numb_list.add(new Word("I’m coming.","әәnәm"));
+        numb_list.add(new Word("Let’s go.","yoowutis"));
+        numb_list.add(new Word("Come here.","әnni'nem"));
+
+        WordAdapter itemsAdapter = new WordAdapter(this, numb_list);
+
+        ListView listView = (ListView) findViewById(R.id.list);
+
+        listView.setAdapter(itemsAdapter);
     }
 }
