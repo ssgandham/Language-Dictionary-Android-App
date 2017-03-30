@@ -36,7 +36,7 @@ public class FamilyActivity extends AppCompatActivity {
         numb_list.add(new Word("tune","daughter"));
         numb_list.add(new Word("taachi","older brother"));
         numb_list.add(new Word("chalitti","younger brother"));
-        numb_list.add(new Word("teṭe","older sister"));
+        numb_list.add(new Word("teṭe","older sist er"));
         numb_list.add(new Word("kolliti","younger sister"));
         numb_list.add(new Word("ama","grandmother"));
         numb_list.add(new Word("paapa","grandfather"));
