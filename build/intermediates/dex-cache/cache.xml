@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/balaji/Documents/Udacity/Miwok/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51b3732cfc4db31418593a54ae6cded7aeead917">
+        <dex dex="/Users/balaji/Documents/Udacity/Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8f19ff59e5269cc414206e25d783c4144a5dbce1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/balaji/.android/build-cache/c58045fbf7a7cf9ee7c4a6f310aa269b686486c8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/balaji/Documents/Udacity/Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_86d77bd34d0e85c65216512e950e27f5c7af8be9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/balaji/.android/build-cache/9091fc98965c567a715b1dc47e868f5c9b81e1b8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/balaji/Documents/Udacity/Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0251050341eb5144645b002544e5130008920bdd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/balaji/.android/build-cache/2dfa52dd4ac3da970d0eee57841d7248cbdb97d1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/balaji/Documents/Udacity/Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4d5ea7ba43a44781142f324f8c4108b8853b5a77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/balaji/.android/build-cache/d3539f74116f8942cb0b56af388848f4ecf0c034/output/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/balaji/Documents/Udacity/Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_ea8ed8121f507448ce7f6bb6c8b966595bd43fc0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/balaji/Documents/Udacity/Miwok/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/balaji/Documents/Udacity/Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_85ad491aef231cd162397cb23ccb842316ce9a32/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/balaji/.android/build-cache/651fcbd374635550ec83c5e4e5bf27b04a05d233/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/balaji/Documents/Udacity/Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6d259d69490b807a3b1bb91455ac2c4424ab4cab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/balaji/.android/build-cache/1ff4da82494c382f0865a88493a98b4dafe357f5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/balaji/Documents/Udacity/Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_76f8c2a54e2c6bdff9657a02d914f0211c65b957/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/balaji/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/balaji/Documents/Udacity/Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_2715be52baa0498ded4f310bc58d6245e023ecaa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/balaji/.android/build-cache/d3539f74116f8942cb0b56af388848f4ecf0c034/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/balaji/Documents/Udacity/Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ed7cfeb94001cbc7a8ccb96725f2354dcf094bea/classes.dex" />
+    </item>
+
+</items>

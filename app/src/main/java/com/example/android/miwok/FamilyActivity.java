@@ -17,12 +17,34 @@ package com.example.android.miwok;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 public class FamilyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_family);
+        setContentView(R.layout.activity_numbers);
+
+        String[] numb = new String[10];
+        ArrayList<Word> numb_list = new ArrayList<Word>();
+        numb_list.add(new Word("әpә","father"));
+        numb_list.add(new Word("әṭa","mother"));
+        numb_list.add(new Word("angsi","son"));
+        numb_list.add(new Word("tune","daughter"));
+        numb_list.add(new Word("taachi","older brother"));
+        numb_list.add(new Word("chalitti","younger brother"));
+        numb_list.add(new Word("teṭe","older sister"));
+        numb_list.add(new Word("kolliti","younger sister"));
+        numb_list.add(new Word("ama","grandmother"));
+        numb_list.add(new Word("paapa","grandfather"));
+
+        WordAdapter itemsAdapter = new WordAdapter(this, numb_list);
+
+        ListView listView = (ListView) findViewById(R.id.list);
+
+        listView.setAdapter(itemsAdapter);
     }
 }

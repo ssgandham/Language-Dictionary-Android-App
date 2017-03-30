@@ -22,6 +22,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 public class NumbersActivity extends AppCompatActivity {
 
@@ -31,21 +33,26 @@ public class NumbersActivity extends AppCompatActivity {
         setContentView(R.layout.activity_numbers);
 
         String[] numb = new String[10];
-        ArrayList<String> numb_list = new ArrayList<String>();
-        numb_list.add("one");
-        numb_list.add("two");
-        numb_list.add("three");
-        numb_list.add("four");
-        numb_list.add("five");
-        numb_list.add("six");
-        numb_list.add("seven");
-        numb_list.add("eight");
-        numb_list.add("nine");
-        numb_list.add("ten");
+        ArrayList<Word> numb_list = new ArrayList<Word>();
+        numb_list.add(new Word("lutti", "one"));
+        numb_list.add(new Word("ottiko", "two"));
+        numb_list.add(new Word("toolokosu","three"));
+        numb_list.add(new Word("oyyisa","four"));
+        numb_list.add(new Word("massokka","five"));
+        numb_list.add(new Word("temmokka","six"));
+        numb_list.add(new Word("kenekaku","seven"));
+        numb_list.add(new Word("kawinta","eight"));
+        numb_list.add(new Word("wo'e","nine"));
+        numb_list.add(new Word("na'aacha","ten"));
 
-        LinearLayout numbers_view = (LinearLayout) findViewById(R.id.NumbersView);
-        TextView display_view = new TextView(this);
-        display_view.setText(numb_list.get(0));
-        numbers_view.addView(display_view);
+
+
+
+        WordAdapter itemsAdapter = new WordAdapter(this, numb_list);
+
+        ListView listView = (ListView) findViewById(R.id.list);
+
+        listView.setAdapter(itemsAdapter);
+
     }
 }
