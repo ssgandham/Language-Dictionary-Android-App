@@ -30,14 +30,14 @@ public class ColorsActivity extends AppCompatActivity {
 
         String[] numb = new String[10];
         ArrayList<Word> numb_list = new ArrayList<Word>();
-        numb_list.add(new Word("weṭeṭṭi","red"));
-        numb_list.add(new Word("chokokki","green"));
-        numb_list.add(new Word("ṭakaakki","brown"));
-        numb_list.add(new Word("ṭopoppi","gray"));
-        numb_list.add(new Word("kululli","black"));
-        numb_list.add(new Word("kelelli","white"));
-        numb_list.add(new Word("ṭopiisә","dusty yellow"));
-        numb_list.add(new Word("chiwiiṭә","mustard yellow"));
+        numb_list.add(new Word("weṭeṭṭi","red",R.drawable.color_red));
+        numb_list.add(new Word("chokokki","green",R.drawable.color_green));
+        numb_list.add(new Word("ṭakaakki","brown",R.drawable.color_brown));
+        numb_list.add(new Word("ṭopoppi","gray",R.drawable.color_gray));
+        numb_list.add(new Word("kululli","black",R.drawable.color_black));
+        numb_list.add(new Word("kelelli","white",R.drawable.color_white));
+        numb_list.add(new Word("ṭopiisә","dusty yellow",R.drawable.color_dusty_yellow));
+        numb_list.add(new Word("chiwiiṭә","mustard yellow",R.drawable.color_mustard_yellow));
 
         WordAdapter itemsAdapter = new WordAdapter(this, numb_list);
 

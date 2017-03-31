@@ -34,16 +34,16 @@ public class NumbersActivity extends AppCompatActivity {
 
         String[] numb = new String[10];
         ArrayList<Word> numb_list = new ArrayList<Word>();
-        numb_list.add(new Word("lutti", "one"));
-        numb_list.add(new Word("ottiko", "two"));
-        numb_list.add(new Word("toolokosu","three"));
-        numb_list.add(new Word("oyyisa","four"));
-        numb_list.add(new Word("massokka","five"));
-        numb_list.add(new Word("temmokka","six"));
-        numb_list.add(new Word("kenekaku","seven"));
-        numb_list.add(new Word("kawinta","eight"));
-        numb_list.add(new Word("wo'e","nine"));
-        numb_list.add(new Word("na'aacha","ten"));
+        numb_list.add(new Word("lutti", "one", R.drawable.number_one));
+        numb_list.add(new Word("ottiko", "two", R.drawable.number_two));
+        numb_list.add(new Word("toolokosu","three", R.drawable.number_three));
+        numb_list.add(new Word("oyyisa","four", R.drawable.number_four));
+        numb_list.add(new Word("massokka","five", R.drawable.number_five));
+        numb_list.add(new Word("temmokka","six", R.drawable.number_six));
+        numb_list.add(new Word("kenekaku","seven", R.drawable.number_seven));
+        numb_list.add(new Word("kawinta","eight", R.drawable.number_eight));
+        numb_list.add(new Word("wo'e","nine", R.drawable.number_nine));
+        numb_list.add(new Word("na'aacha","ten", R.drawable.number_ten));
 
 
 

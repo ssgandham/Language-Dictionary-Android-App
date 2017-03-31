@@ -30,16 +30,16 @@ public class FamilyActivity extends AppCompatActivity {
 
         String[] numb = new String[10];
         ArrayList<Word> numb_list = new ArrayList<Word>();
-        numb_list.add(new Word("әpә","father"));
-        numb_list.add(new Word("әṭa","mother"));
-        numb_list.add(new Word("angsi","son"));
-        numb_list.add(new Word("tune","daughter"));
-        numb_list.add(new Word("taachi","older brother"));
-        numb_list.add(new Word("chalitti","younger brother"));
-        numb_list.add(new Word("teṭe","older sist er"));
-        numb_list.add(new Word("kolliti","younger sister"));
-        numb_list.add(new Word("ama","grandmother"));
-        numb_list.add(new Word("paapa","grandfather"));
+        numb_list.add(new Word("әpә","father",R.drawable.family_father));
+        numb_list.add(new Word("әṭa","mother",R.drawable.family_mother));
+        numb_list.add(new Word("angsi","son",R.drawable.family_son));
+        numb_list.add(new Word("tune","daughter",R.drawable.family_daughter));
+        numb_list.add(new Word("taachi","older brother",R.drawable.family_older_brother));
+        numb_list.add(new Word("chalitti","younger brother",R.drawable.family_younger_brother));
+        numb_list.add(new Word("teṭe","older sister",R.drawable.family_older_sister));
+        numb_list.add(new Word("kolliti","younger sister",R.drawable.family_younger_sister));
+        numb_list.add(new Word("ama","grandmother",R.drawable.family_grandmother));
+        numb_list.add(new Word("paapa","grandfather",R.drawable.family_grandfather));
 
         WordAdapter itemsAdapter = new WordAdapter(this, numb_list);
 
