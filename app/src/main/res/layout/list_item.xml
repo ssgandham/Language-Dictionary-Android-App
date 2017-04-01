@@ -15,6 +15,7 @@
         android:padding="16dp"/>
 
     <LinearLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="@dimen/list_item_height"
         android:orientation="vertical"
