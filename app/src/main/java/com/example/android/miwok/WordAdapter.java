@@ -47,8 +47,14 @@ public class WordAdapter extends ArrayAdapter<Word>{
         defaultTextView.setText(currentword.get_default());
 
         //get image source
-        ImageView image_view = (ImageView) listItemView.findViewById(R.id.imageView);
-        image_view.setImageResource(currentword.get_img_source());
+
+            ImageView image_view = (ImageView) listItemView.findViewById(R.id.imageView);
+            image_view.setVisibility(View.VISIBLE);
+        if(currentword.image_exists()) {
+            image_view.setImageResource(currentword.get_img_source());
+        }else{
+            image_view.setVisibility(View.GONE);
+        }
 
 
 
